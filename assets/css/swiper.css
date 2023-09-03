@@ -46,11 +46,11 @@ swiper-container {
   height: 100%;
   z-index: -1;
   display: flex;
-  transition-property: transform;
+  /* transition-property: transform;
   transition-timing-function: var(
     --swiper-wrapper-transition-timing-function,
     initial
-  );
+  ); */
   box-sizing: content-box;
 }
 .swiper-android .swiper-slide,
@@ -632,7 +632,7 @@ swiper-container .swiper-notification {
   flex-direction: column;
 }
 .swiper-fade.swiper-free-mode .swiper-slide {
-  transition-timing-function: ease-out;
+  /* transition-timing-function: ease-out; */
 }
 .swiper-fade .swiper-slide {
   pointer-events: none;

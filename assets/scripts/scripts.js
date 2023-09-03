@@ -20,7 +20,7 @@ if ($(".slider-certificate").length > 0) {
         autoplay: true,
         fadeEffect: { crossFade: true },
         effect: "fade",
-        speed: 4000,
+        speed: 20,
         loop: true,
     });
 }
